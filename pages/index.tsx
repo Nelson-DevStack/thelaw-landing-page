@@ -1,6 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import About from '../components/About'
+import Grid from '../components/Grid'
 import Hero from '../components/Hero'
 import styles from '../styles/Home.module.css'
 
@@ -15,8 +17,13 @@ const Home: NextPage = () => {
       
       <Hero />
 
-      <main className={styles.main}>
-        If I was frozen
+      <main className={styles.main} style={{ backgroundColor: "#f4f4f4" }}>
+        <div className={styles.container}>
+
+          {/* <About /> */}
+          <Grid />
+
+        </div>
       </main>
     </>
   )
