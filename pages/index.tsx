@@ -4,6 +4,7 @@ import Image from 'next/image'
 import About from '../components/About'
 import Grid from '../components/Grid'
 import Hero from '../components/Hero'
+import PersonHero from '../components/PersonHero'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -19,11 +20,11 @@ const Home: NextPage = () => {
 
       <main className={styles.main} style={{ backgroundColor: "#f4f4f4" }}>
         <div className={styles.container}>
-
           {/* <About /> */}
           <Grid />
-
         </div>
+          <PersonHero />
+
       </main>
     </>
   )
