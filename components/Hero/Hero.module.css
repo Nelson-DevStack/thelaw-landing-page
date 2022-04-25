@@ -50,6 +50,23 @@
   font-family: Fira Sans, sans-serif;
 }
 
+.contentFooter{
+  margin-top: 10px;
+}
+
+.contentButton{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #212121;
+  color: #fafafa;
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: 300;
+  letter-spacing: .5px;
+  cursor: pointer;
+}
 
 @media screen and (min-width: 768px){
   .contentWrapper{
