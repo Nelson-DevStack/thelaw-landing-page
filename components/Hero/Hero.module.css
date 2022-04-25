@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap');
+
+.hero{
+  width: 100%;
+  min-height: calc(100vh - 70px);
+  height: 120px;
+  background-color: #c1c1c1;
+  background-size: cover;
+  margin-top: 70px;
+  background-position: center;
+  background-image: url('https://images.unsplash.com/photo-1462206092226-f46025ffe607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280q=80');
+}
+
+.container{
+  max-width: 1280px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 0 1em;
+}
+
+.contentWrapper{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  max-width: 30em;
+}
+
+.title{
+  font-size: 2.5em;
+  color: #ffc107;
+  font-family: PT Serif, serif;
+}
+
+.subtitle{
+  font-size: 2.5em;
+  color: #fafafa;
+  font-family: PT Serif, serif;
+}
+
+.text{
+  font-size: 1.5em;
+  color: #fafafa;
+  font-family: Fira Sans, sans-serif;
+}
+
+
+@media screen and (min-width: 768px){
+  .contentWrapper{
+    justify-content: flex-end;
+  }
+}
