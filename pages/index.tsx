@@ -18,9 +18,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <Hero />
 
       <main className={styles.main} style={{ backgroundColor: "#f4f4f4" }}>
+        <Hero />
+
         <div className={styles.container}>
           <Grid />
         </div>
@@ -29,8 +30,9 @@ const Home: NextPage = () => {
 
         <div className={styles.container}>
           <Offers />
+          <About />
         </div>
-        {/* <ServicesGrid /> */}
+        
 
       </main>
     </>
