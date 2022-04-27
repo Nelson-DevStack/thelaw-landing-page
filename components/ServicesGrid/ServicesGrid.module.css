@@ -1,0 +1,83 @@
+.wrapper{
+  background-color: #212121;
+}
+
+.container{
+  max-width: 1280px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 4em 1em;
+}
+
+.title{
+  font-size: 2em;
+  color: #eaeaea;
+  letter-spacing: 1px;
+  font-family: 'DM Serif Display', serif;
+}
+
+.text{
+  color: #eaeaea;
+  letter-spacing: .4px;
+  line-height: 1.25em;
+  margin: 1em 0;
+  font-size: 1.2em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 2.5em;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+  align-items: center;
+}
+
+.iconWrapper{
+  background-color: rgb(216, 196, 83);
+  color: #fafafa;
+  width: auto;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8em;
+}
+
+.cardTitle{
+  margin: 15px 0;
+  color: #eaeaea;
+  letter-spacing: .5px;
+  font-family: 'DM Serif Display', serif;
+}
+
+.separator{
+  min-width: 100px;
+  background-color: rgb(216, 196, 83);
+  border-radius: 3px;
+  height: 4px;
+}
+
+@media screen and (min-width: 768px){
+  .grid{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card{
+    border-left: 1px solid #c1c1c1;
+    border-right: 1px solid #c1c1c1;
+    border-top: 0;
+    border-bottom: 0;
+    margin: 0;
+  }
+}

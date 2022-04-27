@@ -1,0 +1,74 @@
+.wrapper{
+  width: 100%;
+  padding: 2em 0;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title{
+  font-size: 2em;
+  font-family: 'DM Serif Display', serif;
+  letter-spacing: .5px;
+}
+
+.description{
+  font-size: 1.05em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.separator{
+  border: none;
+  height: 2px;
+  background-color: #212121;
+  width: 80%;
+  margin: 10px 0;
+}
+
+.grid{
+  margin: 2em 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4em;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.iconArea{
+  /* border: 1px solid red; */
+  height: auto;
+}
+
+.iconWrapper{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #e6f0f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8em;
+}
+
+.cardTitle{
+  font-size: 1.6em;
+}
+
+.cardText{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+}
+
+@media screen and (min-width: 768px){
+  .grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
