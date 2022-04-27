@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import About from '../components/About'
+import Contact from '../components/Contact'
 import Grid from '../components/Grid'
 import Hero from '../components/Hero'
 import Offers from '../components/Offers'
@@ -33,7 +34,7 @@ const Home: NextPage = () => {
           <About />
         </div>
         
-
+        <Contact />
       </main>
     </>
   )
