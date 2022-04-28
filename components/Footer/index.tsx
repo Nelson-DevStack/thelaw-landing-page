@@ -20,7 +20,11 @@ export default function Footer(){
           </div>
 
           <div className={style.footerForm}>
-            <input className={style.formInput} type="text" />
+            <input 
+              className={style.formInput}
+              type="text"
+              placeholder="Lorem ipsum..."
+            />
             <button className={style.formBtn}>
               Lorem ipsum
             </button>
