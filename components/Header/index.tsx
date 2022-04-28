@@ -1,6 +1,13 @@
+import { useState } from 'react';
+import { FaBars } from 'react-icons/fa';
 import style from './Header.module.css';
 
 export default function Header(){
+  const [active, setActive] = useState<boolean>(false);
+  const handleBtn = () => {
+    setActive(!active);
+  }
+
   return(
     <header className={style.header}>
       <nav className={style.nav}>
@@ -8,15 +15,25 @@ export default function Header(){
           The Law
         </a>
 
-        <ul className={style.navLinks}>
+        <button 
+          className={style.barsBtn}
+          onClick={handleBtn}
+        >
+          <FaBars />
+        </button>
+
+        <ul className={style.navLinks} style={{ visibility: active ? 'visible' : 'hidden' }}>
           <li className={style.navItem}>
             <a>Home</a>
           </li>
           <li className={style.navItem}>
-            <a>About</a>
+            <a>Resources</a>
           </li>
           <li className={style.navItem}>
-            <a>Team</a>
+            <a>Offers</a>
+          </li>
+          <li className={style.navItem}>
+            <a>About</a>
           </li>
           <li className={style.navItem}>
             <a>Contact</a>
