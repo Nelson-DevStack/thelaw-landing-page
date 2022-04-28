@@ -36,7 +36,7 @@
 .separator{
   min-width: 100px;
   margin: .8em 0;
-  background-color: rgb(216, 196, 83);
+  background-color: var(--textGold);
   border: none;
   border-radius: 3px;
   height: 7px;

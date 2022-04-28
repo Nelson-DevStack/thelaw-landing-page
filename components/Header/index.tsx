@@ -22,7 +22,9 @@ export default function Header(){
           <FaBars />
         </button>
 
-        <ul className={style.navLinks} style={{ visibility: active ? 'visible' : 'hidden' }}>
+        <ul 
+          className={active ? `${style.navLinks} ${style.hidden}` : `${style.navLinks} ${style.visible}`}
+        >
           <li className={style.navItem}>
             <a>Home</a>
           </li>
