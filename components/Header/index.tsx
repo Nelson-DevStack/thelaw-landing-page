@@ -23,7 +23,7 @@ export default function Header(){
         </button>
 
         <ul 
-          className={active ? `${style.navLinks} ${style.hidden}` : `${style.navLinks} ${style.visible}`}
+          className={active ? `${style.navLinks} ${style.visible}` : `${style.navLinks}`}
         >
           <li className={style.navItem}>
             <a>Home</a>

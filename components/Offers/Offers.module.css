@@ -8,12 +8,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center
 }
 
 .title{
   font-size: 2em;
   font-family: 'DM Serif Display', serif;
-  letter-spacing: .5px;
+  letter-spacing: .2px;
 }
 
 .description{
@@ -42,6 +43,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 1em;
+  text-align: center;
 }
 
 .iconArea{
@@ -61,17 +63,20 @@
 
 .cardTitle{
   font-size: 1.6em;
+  margin-bottom: 10px;
 }
 
 .cardText{
   font-family: 'Open Sans', sans-serif;
   font-size: 1.1em;
+  margin-top: 10px;
 }
 
-@media screen and (min-width: 414px){
+@media screen and (min-width: 550px){
   .card{
     flex-direction: row;
     align-items: initial;
+    text-align: left;
   }
 }
 
