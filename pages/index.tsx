@@ -20,20 +20,20 @@ const Home: NextPage = () => {
       
 
       <main className={styles.main} style={{ backgroundColor: "#f4f4f4" }}>
-        <Hero />
+        <Hero id={"home"} />
 
         <div className={styles.container}>
-          <Grid />
+          <Grid id={"resources"} />
         </div>
 
         <PersonHero />
 
         <div className={styles.container}>
-          <Offers />
-          <About />
+          <Offers id={"offers"} />
+          <About id={"about"} />
         </div>
         
-        <Contact />
+        <Contact id={"contact"} />
       </main>
     </>
   )

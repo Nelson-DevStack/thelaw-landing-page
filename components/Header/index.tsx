@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import style from './Header.module.css';
+import { Link as ScrollLink } from 'react-scroll';
 
 export default function Header(){
   const [active, setActive] = useState<boolean>(false);
@@ -26,19 +27,50 @@ export default function Header(){
           className={active ? `${style.navLinks} ${style.visible}` : `${style.navLinks}`}
         >
           <li className={style.navItem}>
-            <a>Home</a>
+            <ScrollLink
+              to="home"
+              spy={true}
+              offset={-70}
+              onClick={()=> setActive(false)}
+            >
+              Home
+            </ScrollLink>
           </li>
           <li className={style.navItem}>
-            <a>Resources</a>
+            <ScrollLink
+              to="resources"
+              spy={true}
+              onClick={()=> setActive(false)}
+            >
+              Resources
+            </ScrollLink>
           </li>
           <li className={style.navItem}>
-            <a>Offers</a>
+            <ScrollLink
+              to="offers"
+              spy={true}
+              onClick={()=> setActive(false)}
+            >
+              Offers
+            </ScrollLink>
           </li>
           <li className={style.navItem}>
-            <a>About</a>
+            <ScrollLink
+              to="about"
+              spy={true}
+              onClick={()=> setActive(false)}
+            >
+              About
+            </ScrollLink>
           </li>
           <li className={style.navItem}>
-            <a>Contact</a>
+            <ScrollLink
+              to="contact"
+              spy={true}
+              onClick={()=> setActive(false)}
+            >
+              Contact
+            </ScrollLink>
           </li>
         </ul>
       </nav>

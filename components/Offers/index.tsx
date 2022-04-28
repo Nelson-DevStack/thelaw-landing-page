@@ -3,10 +3,11 @@ import { ImEarth } from 'react-icons/im';
 import { FaUniversity } from 'react-icons/fa';
 import { GiFingerPrint } from 'react-icons/gi';
 import style from './Offers.module.css';
+import SectionIdInteface from '../../types/id';
 
-export default function Offers(){
+export default function Offers({ id }: SectionIdInteface){
   return(
-    <section className={style.wrapper}>
+    <section className={style.wrapper} id={id}>
       <div className={style.header}>
         <h1 className={style.title}>What we offer our clients</h1>
         <p className={style.description}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, quasi. </p>

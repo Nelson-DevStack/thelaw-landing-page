@@ -1,9 +1,10 @@
 import Image from 'next/image';
+import SectionIdInteface from '../../types/id';
 import style from './About.module.css';
 
-export default function About(){
+export default function About({id}: SectionIdInteface){
   return(
-    <section className={style.wrapper}>
+    <section className={style.wrapper} id={id}>
       <div className={style.header}>
         <h2 className={style.mainTitle}>Toronto lawyer Jim Gordon has practiced criminal law exclusively since her call to the Ontario Bar in 1997. She is a senior member of the criminal defence bar with over 25 years experience.</h2>
       </div>

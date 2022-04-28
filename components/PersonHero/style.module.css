@@ -1,7 +1,7 @@
 .hero{
   width: 100%;
   height: 600px;
-  background-image: url('https://assets.website-files.com/5f7ecafd6ff24c21105f7bc0/5f8ef48e816a899c8b310e05_services-image.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25)), url('https://assets.website-files.com/5f7ecafd6ff24c21105f7bc0/5f8ef48e816a899c8b310e05_services-image.jpg');
   position: relative;
   background-size: cover;
 }

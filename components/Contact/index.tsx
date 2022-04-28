@@ -1,8 +1,9 @@
+import SectionIdInteface from '../../types/id';
 import style from './Contact.module.css';
 
-export default function Contact(){
+export default function Contact({ id }: SectionIdInteface){
   return(
-    <section className={style.wrapper}>
+    <section className={style.wrapper} id={id}>
       <div className={style.container}>
         <div className={style.contentWrapper}>
 

@@ -1,9 +1,10 @@
 import { FcDiploma1, FcDocument, FcMoneyTransfer } from 'react-icons/fc';
+import SectionIdInteface from '../../types/id';
 import style from './Grid.module.css';
 
-export default function Grid(){
+export default function Grid({ id }: SectionIdInteface){
   return(
-    <section className={style.section}>
+    <section className={style.section} id={id}>
       <div className={style.card}>
         <div className={style.iconWrapper}>
           <FcDocument />
