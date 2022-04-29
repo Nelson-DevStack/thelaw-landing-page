@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import style from './Header.module.css';
 import { Link as ScrollLink } from 'react-scroll';
+import Link from 'next/link';
 
 export default function Header(){
   const [active, setActive] = useState<boolean>(false);
@@ -12,9 +13,11 @@ export default function Header(){
   return(
     <header className={style.header}>
       <nav className={style.nav}>
-        <a className={style.brand}>
-          The Law
-        </a>
+        <Link href="/">
+          <a className={style.brand}>
+            The Law
+          </a>
+        </Link>
 
         <button 
           className={style.barsBtn}
@@ -31,6 +34,7 @@ export default function Header(){
               to="home"
               spy={true}
               offset={-70}
+              smooth={true}
               onClick={()=> setActive(false)}
             >
               Home
@@ -40,6 +44,8 @@ export default function Header(){
             <ScrollLink
               to="resources"
               spy={true}
+              smooth={true}
+              offset={-90}
               onClick={()=> setActive(false)}
             >
               Resources
@@ -49,6 +55,8 @@ export default function Header(){
             <ScrollLink
               to="offers"
               spy={true}
+              smooth={true}
+              offset={-70}
               onClick={()=> setActive(false)}
             >
               Offers
@@ -58,6 +66,8 @@ export default function Header(){
             <ScrollLink
               to="about"
               spy={true}
+              smooth={true}
+              offset={-70}
               onClick={()=> setActive(false)}
             >
               About
@@ -67,6 +77,8 @@ export default function Header(){
             <ScrollLink
               to="contact"
               spy={true}
+              smooth={true}
+              offset={-10}
               onClick={()=> setActive(false)}
             >
               Contact
