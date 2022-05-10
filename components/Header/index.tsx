@@ -13,11 +13,13 @@ export default function Header(){
   return(
     <header className={style.header}>
       <nav className={style.nav}>
-        <Link href="/">
-          <a className={style.brand}>
+        <div className={style.brand}>
+          <Link href="/">
             The Law
-          </a>
-        </Link>
+          </Link>
+        </div>
+          {/* <a className={style.brand}>
+          </a> */}
 
         <button 
           className={style.barsBtn}
