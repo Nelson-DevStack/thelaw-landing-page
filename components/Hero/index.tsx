@@ -1,6 +1,7 @@
 import style from './Hero.module.css';
 import SectionIdInteface from '../../types/id';
 import { FaChevronDown } from 'react-icons/fa';
+import { VscFoldDown } from 'react-icons/vsc';
 
 export default function Hero({ id }: SectionIdInteface){
   return(
@@ -21,7 +22,7 @@ export default function Hero({ id }: SectionIdInteface){
           </div>
 
           <div className={style.arrowWrapper}>
-            <FaChevronDown />
+            <VscFoldDown />
           </div>
 
         </div>

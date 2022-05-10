@@ -77,11 +77,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
-  left: 0;
   right: 0;
+  left: 0;
+  max-width: 10ch;
+  margin: auto;
   animation: fade-slide-up 1s 1s ease-out forwards,
-  pulse 3s 2s ease-out infinite;
+  pulse 3s 3s ease-out infinite;
   opacity: 0;
 }
 
@@ -94,7 +95,6 @@
 @keyframes fade-slide-up{
   0%{
     opacity: 0;
-    transform: translateX(4rem);
   }
   100%{
     opacity: 1;
