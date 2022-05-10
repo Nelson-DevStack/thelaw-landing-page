@@ -20,7 +20,7 @@ export default function About({id}: SectionIdInteface){
 
         <div className={style.textWrapper}>
           <p className={style.text}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia numquam dolorem quidem ipsa nostrum placeat itaque iste tempore quam nihil laudantium temporibus amet cum accusamus quasi totam, recusandae voluptate quas!</p>
-          <p className={style.text}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia numquam dolorem quidem ipsa nostrum placeat itaque iste tempore quam nihil laudantium temporibus amet cum accusamus quasi totam, recusandae voluptate quas!</p>
+          <p className={style.text}>Quia numquam dolorem quidem ipsa nostrum placeat itaque iste tempore quam nihil laudantium temporibus amet cum accusamus quasi totam, recusandae voluptate quas!</p>
         </div>
       </div>
 

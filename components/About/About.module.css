@@ -24,16 +24,18 @@
 }
 
 .mainTitle{
-  font-size: 2em;
-  font-weight: 400;
-  text-align: center;
   font-family: 'DM Serif Display', serif;
+  letter-spacing: 0.025em;
+  color: #212121;
+  font-size: 2em;
+  text-align: center;
 }
 
 .text{
   font-size: 1.2em;
   margin: 10px 0;
   font-family: 'Open Sans', sans-serif;
+  color: #212121;
 }
 
 .separator{

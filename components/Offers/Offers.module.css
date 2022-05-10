@@ -14,7 +14,7 @@
 .title{
   font-size: 2em;
   font-family: 'DM Serif Display', serif;
-  letter-spacing: .2px;
+  letter-spacing: 0.025em;
 }
 
 .description{
@@ -68,7 +68,7 @@
 
 .cardText{
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.1em;
+  font-size: 1.2em;
   margin-top: 10px;
 }
 

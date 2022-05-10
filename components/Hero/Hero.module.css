@@ -34,21 +34,25 @@
 }
 
 .title{
-  font-size: 2.5em;
   color: var(--textGold);
-  font-family: PT Serif, serif;
+  font-size: 3em;
+  font-family: 'DM Serif Display', serif;
+  letter-spacing: 0.025em;
 }
 
 .subtitle{
-  font-size: 2.5em;
+  font-size: 1.5em;
   color: #fafafa;
-  font-family: PT Serif, serif;
+  font-family:'Open Sans';
+  font-weight: 400;
+  margin-top: -10px;
 }
 
 .text{
-  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  margin-top: 10px;
   color: #fafafa;
-  font-family: Fira Sans, sans-serif;
 }
 
 .contentFooter{

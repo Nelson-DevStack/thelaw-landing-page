@@ -31,6 +31,8 @@
   text-align: center;
   font-size: 2em;
   font-family: 'DM Serif Display', serif;
+  letter-spacing: 0.025em;
+  color: #212121;
 }
 
 .card{

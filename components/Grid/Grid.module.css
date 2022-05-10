@@ -44,14 +44,14 @@
 
 .cardTitle{
   font-family: 'DM Serif Display', serif;
+  letter-spacing: 0.025em;
+  color: #212121;
 }
 
 .cardText{
   font-family: 'Open Sans', sans-serif;
-  height: 100%;
-  max-width: 80%;
-  color: #212121;
-  font-size: 1.05em;
+  font-size: 1.2em;
+  margin-top: 10px;
 }
 
 @media screen and (min-width: 768px){

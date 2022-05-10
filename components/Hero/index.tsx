@@ -9,10 +9,10 @@ export default function Hero({ id }: SectionIdInteface){
       <div className={style.container}>
         <div className={style.contentWrapper}>
           <div className={style.content}>
-            <h1 className={style.title}>Lorem ipsum</h1>
-            <h1 className={style.subtitle}>The Texts</h1>
+            <h1 className={style.title}>The Law</h1>
+            <h1 className={style.subtitle}>Lorem ipsum</h1>
             <p className={style.text}>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam impedit voluptatem sint nisi aliquam harum quo eos quia? Numquam, inventore.
+              Sit amet consectetur, adipisicing elit. Nam impedit voluptatem sint nisi aliquam harum quo eos quia.
             </p>
             {/* <div className={style.contentFooter}>
               <button className={style.contentButton}>

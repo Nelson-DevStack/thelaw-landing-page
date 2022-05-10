@@ -12,7 +12,7 @@ export default function PersonHero({ id }: SectionIdInteface){
             </h1>
             <hr className={style.separator} />
             <h2 className={style.subtitle}>
-              Thomas Colson, Leadership of Ace Chemicals
+              John Doe, Leadership of Ace Chemicals
             </h2>
           </div>
         </div>

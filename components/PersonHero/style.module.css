@@ -1,6 +1,6 @@
 .hero{
   width: 100%;
-  height: 600px;
+  height: 750px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0, 0, 0, 0.25)), url('https://assets.website-files.com/5f7ecafd6ff24c21105f7bc0/5f8ef48e816a899c8b310e05_services-image.jpg');
   position: relative;
   background-size: cover;
@@ -38,7 +38,7 @@
 }
 
 .separator{
-  min-width: 10%;
+  min-width: 30%;
   margin: .8em 0;
   background-color: rgb(216, 196, 83);
   border: none;
@@ -50,7 +50,8 @@
   font-size: 2em;
   color: var(--textGold);
   letter-spacing: .5px;
-  font-family: 'erif Display', serif;
+  font-family: 'DM Serif Display', serif;
+  letter-spacing: 0.025em;
 }
 
 .subtitle{
@@ -58,7 +59,7 @@
   letter-spacing: .5px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
-  font-size: 1.25em;
+  font-size: 1.3em;
 }
 
 @media screen and (min-width: 768px){
