@@ -23,7 +23,9 @@ export default function Offers({ id }: SectionIdInteface){
           </div>
           <div className={style.cardContent}>
             <h2 className={style.cardTitle}>Focus on Personal Injury Cases</h2>
-            <p className={style.cardText}>Our attorneys focus on personal injury cases and we are passionate about pursuing justice on behalf of injury victims and their families.</p>
+            <p className={style.cardText}>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod necessitatibus deserunt qui sunt, autem incidunt rerum atque voluptas ullam fugiat.
+            </p>
           </div>
         </div>
 
@@ -36,7 +38,7 @@ export default function Offers({ id }: SectionIdInteface){
           <div className={style.cardContent}>
             <h2 className={style.cardTitle}>Multilingual Staff</h2>
             <p className={style.cardText}>
-              Effective communication is the key to our success. Our large multilingual team speaks Spanish and many other languages, and we are happy to answer any questions you may have.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod necessitatibus deserunt qui sunt, autem incidunt rerum atque voluptas ullam fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, illo.
             </p>
           </div>
         </div>
@@ -50,8 +52,7 @@ export default function Offers({ id }: SectionIdInteface){
           <div className={style.cardContent}>
             <h2 className={style.cardTitle}>Harvard Education</h2>
             <p className={style.cardText}>
-              The president of West Coast Trial Lawyers, Neama Rahmani, is one of the youngest graduates in the history of Harvard Law School. He earned his degree at 22 years old and went on to build an impressive record as a trial lawyer at one of the largest firms in Los Angeles, then as a federal prosecutor, and now as the co-founder and president of our firm.
-
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod necessitatibus deserunt qui sunt, autem incidunt rerum atque voluptas ullam fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur sed corrupti in odio vitae iure qui, illum rerum debitis amet!
             </p>
           </div>
         </div>
@@ -67,7 +68,7 @@ export default function Offers({ id }: SectionIdInteface){
               Former Prosecutor
             </h2>
             <p className={style.cardText}>
-              Our lawyers are dedicated to ensuring that justice is served. Prior to establishing West Coast Trial Lawyers, Neama Rahmani served as a federal prosecutor with the United States Attorney’s Office, where he successfully prosecuted high profile drug and human trafficking crimes along the U.S. and Mexico border.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod necessitatibus deserunt qui sunt, autem incidunt rerum atque voluptas ullam fugiat.
             </p>
           </div>
         </div>
