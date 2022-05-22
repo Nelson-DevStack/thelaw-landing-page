@@ -7,7 +7,7 @@ export default function About({id}: SectionIdInteface){
     <section className={style.wrapper} id={id}>
       <div className={style.header}>
         <h2 className={style.mainTitle}>
-          New York Lawyer Jim Gordon has practiced criminal law exclusively since his call to the Empire State in 2005. He is a senior member of the criminal defence bar with over 15 years experience.
+          New York Lawyer Jon Doe has practiced criminal law exclusively since his call to the Empire State in 2005. He is a senior member of the criminal defence bar with over 15 years experience.
         </h2>
       </div>
 

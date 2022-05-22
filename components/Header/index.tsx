@@ -18,8 +18,6 @@ export default function Header(){
             The Law
           </Link>
         </div>
-          {/* <a className={style.brand}>
-          </a> */}
 
         <button 
           className={style.barsBtn}
@@ -37,6 +35,7 @@ export default function Header(){
               spy={true}
               offset={-70}
               smooth={true}
+              activeClass={style.active}
               onClick={()=> setActive(false)}
             >
               Home
@@ -48,6 +47,7 @@ export default function Header(){
               spy={true}
               smooth={true}
               offset={-90}
+              activeClass={style.active}
               onClick={()=> setActive(false)}
             >
               Resources
@@ -59,6 +59,7 @@ export default function Header(){
               spy={true}
               smooth={true}
               offset={-70}
+              activeClass={style.active}
               onClick={()=> setActive(false)}
             >
               Offers
@@ -70,6 +71,7 @@ export default function Header(){
               spy={true}
               smooth={true}
               offset={-70}
+              activeClass={style.active}
               onClick={()=> setActive(false)}
             >
               About
@@ -81,6 +83,7 @@ export default function Header(){
               spy={true}
               smooth={true}
               offset={-10}
+              activeClass={style.active}
               onClick={()=> setActive(false)}
             >
               Contact
